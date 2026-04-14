@@ -1,0 +1,33 @@
+/**
+ * src/components/Layout.css
+ * Styling for the main layout structure.
+ */
+
+.layout-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  flex-shrink: 0;
+  background-color: #1e3a8a; /* Indigo-800 */
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #e5e7eb; /* Added border for visual separation */
+}
+
+.logo h1 {
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+  flex-grow: 1;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
